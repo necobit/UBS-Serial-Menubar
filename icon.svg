@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9"/>
+      <stop offset="100%" style="stop-color:#1E3A5F"/>
+    </linearGradient>
+    <linearGradient id="cable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8E8E8"/>
+      <stop offset="100%" style="stop-color:#B0B0B0"/>
+    </linearGradient>
+    <linearGradient id="connector" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5"/>
+      <stop offset="100%" style="stop-color:#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景（角丸四角形） -->
+  <rect x="40" y="40" width="944" height="944" rx="180" ry="180" fill="url(#bg)"/>
+
+  <!-- ケーブル部分 -->
+  <path d="M512 180 Q512 280 512 350" stroke="url(#cable)" stroke-width="60" fill="none" stroke-linecap="round"/>
+
+  <!-- コネクタ本体 -->
+  <rect x="340" y="340" width="344" height="200" rx="30" ry="30" fill="url(#connector)" stroke="#999" stroke-width="4"/>
+
+  <!-- コネクタのピン（3x2配置） -->
+  <g fill="#FFD700" stroke="#CC9900" stroke-width="3">
+    <circle cx="420" cy="400" r="24"/>
+    <circle cx="512" cy="400" r="24"/>
+    <circle cx="604" cy="400" r="24"/>
+    <circle cx="420" cy="480" r="24"/>
+    <circle cx="512" cy="480" r="24"/>
+    <circle cx="604" cy="480" r="24"/>
+  </g>
+
+  <!-- 下部ケーブル（分岐） -->
+  <g stroke="url(#cable)" stroke-width="40" fill="none" stroke-linecap="round">
+    <path d="M420 540 Q420 650 320 750 Q280 790 280 844"/>
+    <path d="M512 540 Q512 700 512 844"/>
+    <path d="M604 540 Q604 650 704 750 Q744 790 744 844"/>
+  </g>
+
+  <!-- ケーブル端子（小さな丸） -->
+  <g fill="#555">
+    <circle cx="280" cy="860" r="28"/>
+    <circle cx="512" cy="860" r="28"/>
+    <circle cx="744" cy="860" r="28"/>
+  </g>
+</svg>

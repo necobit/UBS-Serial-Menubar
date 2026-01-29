@@ -1,0 +1,17 @@
+# Build
+build/
+DerivedData/
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Distribution
+*.zip

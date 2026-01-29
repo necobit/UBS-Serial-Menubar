@@ -24,7 +24,7 @@ MacのメニューバーにUSB-Serialアダプターのシリアルポートを�
 
 ## ダウンロード
 
-[Releases](https://github.com/necobut/USB-Serial-Menubar/releases)からzipファイルをダウンロードできます。
+[Releases](https://github.com/necobit/UBS-Serial-Menubar/releases)からzipファイルをダウンロードできます。
 
 ### 署名なしアプリの起動方法
 
